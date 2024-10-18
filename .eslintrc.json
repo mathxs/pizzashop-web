@@ -1,8 +1,6 @@
 {
-  "extends": "eslint-config-creago/react",
-  "plugins": ["simple-import-sort"],
-  "rules": {
-    "simple-import-sort/imports": "error",
-    "simple-import-sort/exports": "error"
-  }
+    "extends": "eslint-config-creago/react",
+    "rules": {
+        "eslint-plugin-vue/html-self-closing": "off"
+    }
 }
